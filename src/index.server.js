@@ -7,8 +7,8 @@ const Pusher = require("pusher");
 
 const pusher = new Pusher({
   appId: "1161859",
-  key: "788cd59ff436b8123fcf",
-  secret: "ec64ac5e76c348ff7caf",
+  key: "your_key",
+  secret: "your_secret",
   cluster: "eu",
   useTLS: true,
 });
